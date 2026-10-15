@@ -26,6 +26,8 @@ All validation inputs, logs, intermediate objects, rendered figures and numerica
 
 The corrected `20260721_Figures_redraw/Figure2.R` master is the user-confirmed analysis source. The Figure 1h function follows that master's `run_fig2c()` directly; panels h–j share the corrected epithelial-only CopyKAT transfer. The superseded all-lineage calculation and its comparison export have been removed from the package. The manuscript and supplied PDF were not modified during this code correction.
 
+**2026-10-15.** The package was re-executed end to end against the archived inputs. Twenty of the twenty-one values reported in the manuscript reproduced exactly; the only exception was Figure 1h, whose published panel (0.047 fibroblasts, 0.041 epithelium) came from the superseded all-lineage calculation. The manuscript Results text has since been updated to the epithelial-only values produced by this code (0.060 fibroblasts, 0.027 epithelium, below 0.001 T cells), and the Figure 1h artwork is to be redrawn from them. Manuscript, figure and code therefore describe the same calculation.
+
 ## Boundaries of validation
 
 - Raw-count QC/Harmony/UMAP reconstruction and the expensive sample-wise CopyKAT runs were included and syntax-checked, but not rerun. Panel validation used their archived output files. Software versions can alter reconstructed embeddings/copy-number calls.
