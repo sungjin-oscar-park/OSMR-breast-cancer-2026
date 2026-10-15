@@ -1,0 +1,42 @@
+# Default deny: only the reviewed code/documentation files below can be added.
+# Data, result tables, images, PDFs, notebooks, caches and local configs stay out.
+*
+!*/
+!/.gitattributes
+!/.githooks/pre-commit
+!/.gitignore
+!/R/config.R
+!/R/gene_sets.R
+!/README.md
+!/config.example.R
+!/docs/ENVIRONMENT.md
+!/docs/INPUTS.md
+!/docs/METHODS.md
+!/docs/PANEL_MAP.md
+!/docs/PROVENANCE.md
+!/docs/VALIDATION.md
+!/figure1/bulk.R
+!/figure1/copykat.R
+!/figure1/sc_preprocess.R
+!/figure1/single_cell.R
+!/figure4/analyze.R
+!/figure4/plot.R
+!/figure4/preprocess_and_fit.R
+!/scripts/check_commit.py
+!/scripts/check_environment.R
+!/scripts/run.R
+
+# Block conventional data/output directories, including nested code-like files.
+[Dd]ata/
+raw/
+processed/
+results/
+outputs/
+source_data/
+cache/
+renv/library/
+.Rproj.user/
+__pycache__/
+config.local.R
+.env*
+.DS_Store
