@@ -86,3 +86,7 @@ git diff --cached --stat
 The prepared local repository has the hook enabled, with no commit, remote or publication created. Input data and generated results are excluded even if someone accidentally places them here; runtime configuration also rejects input/output paths inside this repository. `config.local.R` is ignored. To add a new code file later, update both the explicit `.gitignore` allowlist and `ALLOWED` in `scripts/check_commit.py` after reviewing that file.
 
 Review [docs/VALIDATION.md](docs/VALIDATION.md) for the executed checks and the upstream steps not rerun during code packaging.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).

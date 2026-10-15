@@ -13,6 +13,7 @@ ALLOWED = {
     '.gitattributes',
     '.githooks/pre-commit',
     '.gitignore',
+    'LICENSE',
     'R/config.R',
     'R/gene_sets.R',
     'README.md',
