@@ -24,4 +24,4 @@ Figure 1d uses MCP-counter explicitly; unrelated method fallbacks are removed. I
 
 The user confirmed the corrected `20260721_Figures_redraw/Figure2.R` master as the authoritative source for Figure 1f–j. Its `run_fig2c()` supplies the Figure 1h calculation, with only function/output names adapted to final panel numbering and a computed-score CSV export added. The earlier all-lineage CopyKAT implementation is superseded and is not included as an alternative execution path. Panels h–j consistently retain the master’s epithelial-only label transfer.
 
-**2026-10-15.** The manuscript Results text and the Figure 1h artwork were brought into line with this epithelial-only calculation (0.060 fibroblasts, 0.027 epithelium, below 0.001 T cells). The superseded all-lineage values are no longer cited anywhere in the manuscript.
+**2026-10-15.** The manuscript Results text has been brought into line with this epithelial-only calculation (0.060 fibroblasts, 0.027 epithelium, below 0.001 T cells), and the Figure 1h artwork is to be redrawn from the same values. The superseded all-lineage values are no longer cited in the manuscript text.
