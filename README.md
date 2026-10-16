@@ -1,6 +1,6 @@
 # OSMR breast cancer: Figure 1 and Figure 4 analysis code
 
-Code for **Figure 1 (page 1, panels a–j)** and **Figure 4 (page 4, panels a–e)** in `20260930_Main_Figures_SPark.pdf`, prepared on 2026-09-30.
+Code for **Figure 1 (page 1, panels a–j)** and **Figure 4 (page 4, panels a–e)** in `20261015_Main_Figures_SPark.pdf`. The package was prepared on 2026-09-30 against `20260930_Main_Figures_SPark.pdf`; the current PDF differs from it only in the corrected Figure 1h panel and the Figure 2b LIFR amplicon label, neither of which changes the code.
 
 This repository contains analysis scripts, plotting code and documentation only. Input data, clinical tables, expression matrices, cached objects, gene-set databases, statistical results and figure files are **not included**. All inputs and outputs must reside outside this repository.
 
