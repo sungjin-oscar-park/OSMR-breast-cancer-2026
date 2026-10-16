@@ -8,8 +8,8 @@ This repository contains analysis scripts, plotting code and documentation only.
 
 Analysis code for the in silico components of:
 
-> Park S, Nguyen DT, Cho M, In S, Kim J, Hurh S, Park Y, Choi J, Park BJ, Hwang J-I.
-> *OSMR expression levels dictate opposing growth responses to oncostatin M in breast cancer cells.*
+> Park S, Nguyen DT, Cho M, In S, Kim J, Hurh S, Park YS, Choi J, Kim W-K, Park BJ, Hwang J-I.
+> *Clinical significance of OSMR expression and divergent growth responses to oncostatin M in breast cancer cells.*
 > Manuscript submitted to the Journal of Experimental & Clinical Cancer Research, 2026.
 > DOI: [to be added on acceptance]
 
