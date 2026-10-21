@@ -5,6 +5,7 @@
 !/.gitattributes
 !/.githooks/pre-commit
 !/.gitignore
+!/.zenodo.json
 !/R/config.R
 !/R/gene_sets.R
 !/LICENSE

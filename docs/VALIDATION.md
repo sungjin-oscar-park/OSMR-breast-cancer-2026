@@ -38,3 +38,7 @@ The corrected `20260721_Figures_redraw/Figure2.R` master is the user-confirmed a
 - The historical Cox model emits a convergence warning for its sex covariate. Its definition was preserved rather than silently altered. Tied ranks and fgsea probability-floor warnings likewise remain visible in the external logs. Numerical reproduction does not resolve these statistical assumptions.
 
 No Git commit, remote connection or upload was performed. Only the code repository was initialized and its local pre-commit hook enabled.
+
+**2026-10-21.** The statement above that no commit, remote connection or upload had been performed describes the 2026-09-30 state and is superseded. The repository now has a GitHub remote and a tagged release archived for citation.
+
+The reference artwork is now `20261021_Main_Figures.pdf`. Its page 1 carries ten panel markers and prints the redrawn Figure 1h values 0.060, 0.027 and <0.001, with no trace of the superseded 0.047 and 0.041. Its page 4 carries five panel markers and the OSMR, IL6ST, CDKN1A, EGFR and IL6-JAK-STAT3 labels that `docs/PANEL_MAP.md` assigns to 4a-4e. The 2026-10-15 value checks therefore still hold, and the file rename and the Figure 2c merge do not reach the validated panels.

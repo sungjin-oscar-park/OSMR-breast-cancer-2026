@@ -13,6 +13,7 @@ ALLOWED = {
     '.gitattributes',
     '.githooks/pre-commit',
     '.gitignore',
+    '.zenodo.json',
     'LICENSE',
     'R/config.R',
     'R/gene_sets.R',

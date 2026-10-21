@@ -1,6 +1,6 @@
 # OSMR breast cancer: Figure 1 and Figure 4 analysis code
 
-Code for **Figure 1 (page 1, panels a–j)** and **Figure 4 (page 4, panels a–e)** in `20261015_Main_Figures_SPark.pdf`. The package was prepared on 2026-09-30 against `20260930_Main_Figures_SPark.pdf`; the current PDF differs from it only in the corrected Figure 1h panel and the Figure 2b LIFR amplicon label, neither of which changes the code.
+Code for **Figure 1 (page 1, panels a–j)** and **Figure 4 (page 4, panels a–e)** in `20261021_Main_Figures.pdf`. The package was prepared on 2026-09-30 against `20260930_Main_Figures_SPark.pdf`. The current PDF differs from that file in the corrected Figure 1h panel, the Figure 2b LIFR amplicon label and the receptor panels merged into Figure 2c, none of which changes the code.
 
 This repository contains analysis scripts, plotting code and documentation only. Input data, clinical tables, expression matrices, cached objects, gene-set databases, statistical results and figure files are **not included**. All inputs and outputs must reside outside this repository.
 
@@ -8,12 +8,12 @@ This repository contains analysis scripts, plotting code and documentation only.
 
 Analysis code for the in silico components of:
 
-> Park S, Nguyen DT, Cho M, In S, Kim J, Hurh S, Park YS, Choi J, Kim W-K, Park BJ, Hwang J-I.
+> Park S, Nguyen DT, Cho M, In S, Kim J, Hurh S, Park YS, Choi J, Kim W-K, Choi Y, Park BJ, Hwang J-I.
 > *Clinical significance of OSMR expression and divergent growth responses to oncostatin M in breast cancer cells.*
 > Manuscript submitted to the Journal of Experimental & Clinical Cancer Research, 2026.
 > DOI: [to be added on acceptance]
 
-Figures 2, 3, 5 and 6 report wet-laboratory measurements and have no analysis code. Supplementary Figures S1 and S2 are quantitative RT-PCR measurements and likewise have no analysis code. Supplementary Table S1 lists primer sequences. The in silico content of the study is therefore Figure 1 and Figure 4, which this repository covers in full.
+Figures 2, 3, 5 and 6 report wet-laboratory measurements and have no analysis code. Supplementary Figure S1 reports quantitative RT-PCR measurements and likewise has no analysis code. Supplementary Table S1 lists primer sequences and Supplementary Table S2 lists antibodies. The in silico content of the study is therefore Figure 1 and Figure 4, which this repository covers in full.
 
 ## Data availability
 
@@ -23,7 +23,7 @@ No data are distributed here. Obtain each input from its original source:
 |---|---|
 | TCGA breast invasive carcinoma (Nature 2012) expression and clinical tables | cBioPortal export, as described in [docs/INPUTS.md](docs/INPUTS.md) |
 | Breast cancer single-cell atlas (Wu et al.) | NCBI GEO, accession **GSE176078** |
-| Cell-line RNA sequencing generated for this study (acute and sustained-expression TPM tables) | NCBI GEO, accession **[GEO accession to be added]**; raw reads under SRA **[SRA accession to be added]** |
+| Cell-line RNA sequencing generated for this study (acute and sustained-expression TPM tables) | NCBI GEO, accession **[GSE351205](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351205)**, to be released on publication. Raw reads will be linked from that record under an SRA accession assigned when GEO processing completes. |
 
 Place the downloaded files outside this repository and point the configuration at them, as described in [docs/INPUTS.md](docs/INPUTS.md).
 

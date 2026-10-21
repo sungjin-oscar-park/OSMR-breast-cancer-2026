@@ -27,3 +27,5 @@ The user confirmed the corrected `20260721_Figures_redraw/Figure2.R` master as t
 **2026-10-15.** The manuscript Results text has been brought into line with this epithelial-only calculation (0.060 fibroblasts, 0.027 epithelium, below 0.001 T cells). The superseded all-lineage values are no longer cited in the manuscript text.
 
 **2026-10-16.** The Figure 1h artwork has been redrawn from the same values. `20261015_Main_Figures_SPark.pdf` prints 0.060, 0.027 and <0.001 in place of the 0.047, 0.041 and 0 of `20260930_Main_Figures_SPark.pdf`. Manuscript text, figure panel and this code now report one calculation.
+
+**2026-10-21.** The reference artwork was renamed to `20261021_Main_Figures.pdf` and the panels formerly shown as Supplementary Figure S1 were merged into Figure 2c, which leaves one supplementary figure. Neither change touches Figure 1 or Figure 4, so the code is unaffected. The RNA sequencing generated for this study was deposited in NCBI GEO under accession GSE351205, to be released on publication.
