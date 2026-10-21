@@ -1,5 +1,7 @@
 # OSMR breast cancer: Figure 1 and Figure 4 analysis code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23532310.svg)](https://doi.org/10.5281/zenodo.23532310)
+
 Code for **Figure 1 (page 1, panels a–j)** and **Figure 4 (page 4, panels a–e)** in `20261021_Main_Figures.pdf`. The package was prepared on 2026-09-30 against `20260930_Main_Figures_SPark.pdf`. The current PDF differs from that file in the corrected Figure 1h panel, the Figure 2b LIFR amplicon label and the receptor panels merged into Figure 2c, none of which changes the code.
 
 This repository contains analysis scripts, plotting code and documentation only. Input data, clinical tables, expression matrices, cached objects, gene-set databases, statistical results and figure files are **not included**. All inputs and outputs must reside outside this repository.
@@ -12,6 +14,15 @@ Analysis code for the in silico components of:
 > *Clinical significance of OSMR expression and divergent growth responses to oncostatin M in breast cancer cells.*
 > Manuscript submitted to the Journal of Experimental & Clinical Cancer Research, 2026.
 > DOI: [to be added on acceptance]
+
+## Citing this code
+
+The v1.0.0 snapshot taken at submission is archived on Zenodo. Cite the version you used.
+
+| | |
+|---|---|
+| This version (v1.0.0) | [10.5281/zenodo.23532311](https://doi.org/10.5281/zenodo.23532311) |
+| All versions (resolves to the latest) | [10.5281/zenodo.23532310](https://doi.org/10.5281/zenodo.23532310) |
 
 Figures 2, 3, 5 and 6 report wet-laboratory measurements and have no analysis code. Supplementary Figure S1 reports quantitative RT-PCR measurements and likewise has no analysis code. Supplementary Table S1 lists primer sequences and Supplementary Table S2 lists antibodies. The in silico content of the study is therefore Figure 1 and Figure 4, which this repository covers in full.
 
