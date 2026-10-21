@@ -4,7 +4,8 @@
   "creators": [
     {
       "name": "Park, Sungjin",
-      "affiliation": "Institute of Human Behavior & Genetics, Korea University Anam Hospital, Korea University College of Medicine, Seoul, Republic of Korea"
+      "affiliation": "Institute of Human Behavior & Genetics, Korea University Anam Hospital, Korea University College of Medicine, Seoul, Republic of Korea",
+      "orcid": "0000-0003-3663-9220"
     }
   ],
   "description": "<p>Analysis scripts, plotting code and documentation for the in silico components of the manuscript <em>Clinical significance of OSMR expression and divergent growth responses to oncostatin M in breast cancer cells</em> (Park S, Nguyen DT, Cho M, In S, Kim J, Hurh S, Park YS, Choi J, Kim W-K, Choi Y, Park BJ, Hwang J-I), submitted to the Journal of Experimental &amp; Clinical Cancer Research, 2026.</p><p>The repository covers Figure 1 (TCGA breast invasive carcinoma expression, survival and Cox analyses, receptor correlations, MCP-counter deconvolution, Hallmark scoring, and single-cell atlas analysis including CopyKAT-resolved epithelial labels, OSM signaling potential and NATMI-style edge specificity) and Figure 4 (cell-line RNA sequencing preprocessing, limma-trend fits, Welch and Holm testing, moderated effects with confidence intervals, and Hallmark GSEA). The remaining figures report wet-laboratory measurements and have no analysis code.</p><p>No data are distributed in this archive. Input expression matrices, clinical tables, cached objects, gene-set databases, statistical results and figure files must be obtained from their original sources as documented in docs/INPUTS.md. The breast cancer single-cell atlas is NCBI GEO accession GSE176078. The cell-line RNA sequencing generated for this study is NCBI GEO accession GSE351205, to be released on publication.</p>",
